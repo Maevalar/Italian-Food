@@ -1,0 +1,1 @@
+const headerBurger=document.querySelector(".menu__burger");if(headerBurger){const e=document.querySelector(".menu__body");headerBurger.addEventListener("click",(function(r){document.body.classList.toggle("_lock"),headerBurger.classList.toggle("_active"),e.classList.toggle("_active")}))}
